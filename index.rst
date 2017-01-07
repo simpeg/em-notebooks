@@ -14,7 +14,7 @@ electromagnetics.
 If you build upon these notebooks in your work, please cite:
 
 - `(Cockett et al., 2015) <http://www.sciencedirect.com/science/article/pii/S009830041530056X>`_: *SimPEG: An open source framework for simulation and gradient based parameter estimation in geophysical applications*
-- `(Heagy et al., 2016)] <https://arxiv.org/abs/1610.00804>`_: *A framework for simulation and inversion in electromagnetics*
+- `(Heagy et al., 2016) <https://arxiv.org/abs/1610.00804>`_: *A framework for simulation and inversion in electromagnetics*
 
 
 **Contents:**
