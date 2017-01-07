@@ -2,6 +2,7 @@ numpy
 scipy
 matplotlib
 ipywidgets
+jupyter
 git+git://github.com/simpeg/simpeg.git@dev
 sphinx
 sphinx_rtd_theme
