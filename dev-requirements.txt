@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+ipywidgets
+git+git://github.com/simpeg/simpeg.git@dev
+sphinx
+sphinx_rtd_theme
+nbsphinx
