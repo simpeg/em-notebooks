@@ -17,6 +17,11 @@ If you build upon these notebooks in your work, please cite:
 - `(Heagy et al., 2016) <https://arxiv.org/abs/1610.00804>`_: *A framework for simulation and inversion in electromagnetics*
 
 
+These notebooks are available on binders!
+
+.. image:: http://mybinder.org/badge.svg
+    :target: http://mybinder.org:/repo/simpeg/em_notebooks
+
 **Contents:**
 
 .. toctree::
