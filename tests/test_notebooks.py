@@ -6,6 +6,7 @@ import subprocess
 # Testing for the notebooks - use nbconvert to execute all cells of the
 # notebook
 
+py2Ignore = []
 
 TESTDIR = os.path.abspath(__file__)
 NBDIR = os.path.sep.join(TESTDIR.split(os.path.sep)[:-2]) # where are the notebooks?
