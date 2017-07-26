@@ -1,7 +1,10 @@
 import unittest
 import sys
 import os
-import subprocess
+import nbformat
+from nbconvert.preprocessors import ClearOutputPreprocessor, ExecutePreprocessor
+from nbconvert.preprocessors.execute import CellExecutionError
+
 
 # Testing for the notebooks - use nbconvert to execute all cells of the
 # notebook
