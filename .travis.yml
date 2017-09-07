@@ -25,7 +25,7 @@ install:
 
 # Run test
 script:
-  - nosetests $TEST_DIR -v -s
+  - travis_wait 20 nosetests $TEST_DIR -v -s
 
 notifications:
   slack: simpeg:1KZq5giMtlJJ58TijIPgqf7n
