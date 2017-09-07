@@ -4,6 +4,7 @@ matplotlib
 ipywidgets
 jupyter
 git+git://github.com/simpeg/simpeg.git@dev
+pymatsolver
 sphinx
 sphinx_rtd_theme
 nbsphinx
