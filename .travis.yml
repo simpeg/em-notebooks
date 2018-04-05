@@ -21,8 +21,10 @@ before_install:
   - conda update --yes conda
 
 install:
-  - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib cython ipython mkl
+  - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib cython jupyter mkl
   - pip install -r dev-requirements.txt
+  - pip install -r dev-requirements.txt
+  - export MPLBACKEND="agg"
 
 # Run test
 script:
