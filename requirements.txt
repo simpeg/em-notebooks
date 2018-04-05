@@ -5,3 +5,4 @@ ipywidgets
 jupyter
 discretize
 SimPEG
+pandas

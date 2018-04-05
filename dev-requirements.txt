@@ -3,6 +3,7 @@ scipy
 matplotlib
 ipywidgets
 jupyter
+pandas
 SimPEG
 sphinx
 sphinx_rtd_theme
