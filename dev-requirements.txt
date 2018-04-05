@@ -7,3 +7,4 @@ git+git://github.com/simpeg/simpeg.git@dev
 sphinx
 sphinx_rtd_theme
 nbsphinx
+testipynb
