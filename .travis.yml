@@ -27,7 +27,7 @@ install:
 
 # Run test
 script:
-  - nosetests $TEST_DIR
+  - nosetests $TEST_DIR -v -s
 
 notifications:
   slack: simpeg:1KZq5giMtlJJ58TijIPgqf7n
