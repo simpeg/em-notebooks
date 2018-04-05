@@ -4,6 +4,7 @@ matplotlib
 ipywidgets
 jupyter
 pandas
+pymatsolver
 SimPEG
 sphinx
 sphinx_rtd_theme
