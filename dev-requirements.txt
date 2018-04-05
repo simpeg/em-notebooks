@@ -3,7 +3,11 @@ scipy
 matplotlib
 ipywidgets
 jupyter
-git+git://github.com/simpeg/simpeg.git@dev
+pandas
+pymatsolver
+SimPEG
 sphinx
 sphinx_rtd_theme
 nbsphinx
+testipynb
+nose

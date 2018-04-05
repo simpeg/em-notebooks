@@ -3,4 +3,7 @@ scipy
 matplotlib
 ipywidgets
 jupyter
-git+git://github.com/simpeg/simpeg.git@dev
+discretize
+SimPEG
+pymatsolver
+pandas
