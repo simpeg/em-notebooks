@@ -1,3 +1,5 @@
+name: em-notebooks-environment
+
 channels:
   - conda-forge
   - defaults
