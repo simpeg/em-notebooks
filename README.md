@@ -5,6 +5,7 @@
 [![binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg/em-notebooks/master?filepath=index.ipynb)
 [![azure](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg/em-notebooks)
 [![travis](https://travis-ci.org/simpeg/em-notebooks.svg?branch=master)](https://travis-ci.org/simpeg/em-notebooks)
+[![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
 ## Overview
 
