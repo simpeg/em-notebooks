@@ -5,7 +5,7 @@ import unittest
 NBDIR = os.path.sep.join(
     os.path.abspath(__file__).split(os.path.sep)[:-2] + ['notebooks']
 )
-# IGNORE = ["TEM_VerticalConductor_1D_stiched_invrsion"]
+IGNORE = ["DC_Mise-a-la-masse", "DC_inversion_2D_example"]
 
 class TestNotebooks(unittest.TestCase):
 

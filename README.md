@@ -84,10 +84,12 @@ pip install -r requirements.txt
 
 You can then launch Jupyter
 ```
-jupyter notebook
+jupyter notebook index.ipynb
 ```
 
 Jupyter will then launch in your web-browser.
+
+**Note**: these notebooks make use of `ipywidgets`, if you do not already have `ipywidgets` installed, please follow the [ipywidgets installation instructions](https://ipywidgets.readthedocs.io/en/stable/user_install.html).
 
 ## Running the notebooks
 
