@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# repo-specific
+notebooks/mt_inv.txt
+notebooks/InversionModel*.txt
