@@ -10,4 +10,4 @@ sphinx
 sphinx_rtd_theme
 nbsphinx
 testipynb
-nose
+pytest

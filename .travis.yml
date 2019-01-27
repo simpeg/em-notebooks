@@ -2,6 +2,7 @@ language: python
 python:
   - 2.7
   - 3.5
+  - 3.6
 
 sudo: false
 
@@ -23,12 +24,11 @@ before_install:
 install:
   - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib cython jupyter mkl
   - pip install -r dev-requirements.txt
-  - pip install -r dev-requirements.txt
   - export MPLBACKEND="agg"
 
 # Run test
 script:
-  - travis_wait 40 nosetests $TEST_DIR -v -s
+  - travis_wait 40 pytest $TEST_DIR -v
 
 notifications:
   slack: simpeg:1KZq5giMtlJJ58TijIPgqf7n
